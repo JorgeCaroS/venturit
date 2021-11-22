@@ -1,0 +1,43 @@
+.mainheader-container{
+    width: 75vw;
+    height: 9vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    background-color: white; 
+    
+}
+
+.header-input-container{
+    background-color: rgb(237, 240, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 15vw;
+    height: 4vh;
+    margin-left: 200px;
+}
+
+.header-input{
+    border: none;
+    background-color:rgb(237, 240, 248);  
+    width: 10vw;
+    
+}
+
+.header-button{
+    background-color: rgb(75, 120, 245);
+    color: white;
+    width: 4vw;
+    height: 4.5vh;
+    border: none;
+    border-radius: 10px;
+}
+
+.header-notification , .header-message {
+    margin-left: -50px;
+}
+
+.header-arrow {
+    margin-left: -70px;
+}
