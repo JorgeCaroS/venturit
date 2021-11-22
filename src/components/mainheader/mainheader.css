@@ -22,7 +22,11 @@
     border: none;
     background-color:rgb(237, 240, 248);  
     width: 10vw;
-    
+    color: rgb(179, 174, 174);           
+}
+
+.header-input::placeholder{    
+    color: rgb(179, 174, 174);           
 }
 
 .header-button{
@@ -34,10 +38,30 @@
     border-radius: 10px;
 }
 
-.header-notification , .header-message {
+.header-notification  {
     margin-left: -50px;
+    margin-top: -10px;
+}
+
+.header-message{
+    margin-left: -90px;
 }
 
 .header-arrow {
     margin-left: -70px;
+}
+
+.header-notificacion-dot{
+    background-color: rgb(75, 120, 245);
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 20px;
+    left: -35px;
+}
+
+#search-icon{
+    color: rgb(179, 174, 174);
+    font-size: 18px;
 }

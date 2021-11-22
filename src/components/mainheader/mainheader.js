@@ -15,12 +15,14 @@ export default function MainHeader() {
 
              <div  className="header-input-container">
                 <input  className="header-input" placeholder="Search and Find" />
-                <span  id="cart-icon2"  className="material-icons md-dark" > search</span>
+                <span  id="search-icon"  className="material-icons md-dark" > search</span>
              </div>
 
             <button className="header-button">+ADD</button>
-
-            <img className="header-notification"src={notification}  />
+             <div className="header-notificaion-container">
+                 <div className="header-notificacion-dot"></div>
+                 <img className="header-notification"src={notification}  />
+            </div>
             <img className="header-message"src={message}  />
             <label className="header-name"> Clarence Russell </label>
             <img className="header-avatar"src={avatar}  />
