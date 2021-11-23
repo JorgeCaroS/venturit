@@ -1,5 +1,5 @@
 .mainheader-container{
-    width: 75vw;
+    width: 73vw;
     height: 9vh;
     display: flex;
     justify-content: space-around;
@@ -30,7 +30,7 @@
 }
 
 .header-button{
-    background-color: rgb(75, 120, 245);
+    background-color: rgb(29, 123, 247);
     color: white;
     width: 4vw;
     height: 4.5vh;
@@ -39,16 +39,16 @@
 }
 
 .header-notification  {
-    margin-left: -50px;
+    margin-left: -2.5vw;
     margin-top: -10px;
 }
 
 .header-message{
-    margin-left: -90px;
+    margin-left: -4vw;
 }
 
 .header-arrow {
-    margin-left: -70px;
+    margin-left: -2vw;
 }
 
 .header-notificacion-dot{

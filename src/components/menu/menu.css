@@ -1,0 +1,33 @@
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(53, 138, 248);
+    height: 100vh;
+    margin-top: 68px;   
+    width: 60px;
+    color: white;
+    position: relative;
+    
+}
+
+#menu-icon{   
+    padding: 15px;
+}
+
+.menu-container img{
+    width: 16px;
+    height: 16px;
+   
+}
+
+.menu-item{
+    width: 100%;    
+    background-color:rgb(29, 123, 247);
+}
+
+.menu-item:hover{   
+    background-color:rgb(27, 115, 230);
+    cursor: pointer;
+}
