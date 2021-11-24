@@ -1,16 +1,146 @@
 .events-container{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;    
-    align-items: center;
+    align-items: flex-start;
     width: 60vw;   
     margin-right: 10vw;
-    margin-left: 4vw;    
-    border: solid 1px black;
-    
+    margin-left: 5vw;    
+    margin-top: -40px;    
 }
 
 .events-container h1{
-    font-size: 25px;
+    font-size: 32px;
+    color: rgb(52, 51, 129);   
+    position: relative;
+    margin-bottom: 100px;
+    
+}
+
+.events-content{
+    display: flex;
+    align-items: flex-start;    
+}
+
+.events-right-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: -60px;
+    margin-left: 41vw;
+    justify-content: space-around;   
+    position: relative;   
+    z-index: 1;
+}
+
+.events-right-section-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+}
+
+.events-right-section-item{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.events-item-hour{
+    color: gray;
+    font-weight: bold;
+}
+
+.events-item-desc{
     color: rgb(52, 51, 129);
+    font-weight: bold;
+}
+
+.events-line{
+    width: 8vw;
+    height: 0px;
+    border: solid 1px lightgray;
+}
+
+.events-right-section-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.events-right-section-title h3{
+    font-size: 15px;
+    color: rgb(52, 51, 129);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.events-banner-container{
+    display: flex;
+    color:white;
+    position: relative;
+    z-index: 1;
+}
+
+.events-banner{   
+    position: absolute;
+    top:-50px;
+    z-index: 0; 
+    width: 40vw;   
+    height: 280px;
+}
+
+.events-banner-title{
+    display: flex;
+    text-align: start;
+    color:white;
+    left: 10vw;
+    position: absolute;
+    font-size: 40px;
+    z-index: 1;  
+    width: 15vw;   
+}
+
+.events-banner-date{
+    color:white;
+    left: 25vw;
+    position: absolute;
+    font-size: 40px;
+    z-index: 1;     
+}
+
+.events-banner-arrow-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    top:80px;
+    left: 2vw;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    font-size: 20px;
+    z-index: 1; 
+    padding: 0px 20px 5px 5px;
+    border-radius: 5px;   
+    cursor: pointer; 
+}
+
+.events-banner-arrow-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    top:80px;
+    left: 35vw;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    font-size: 20px;
+    z-index: 1; 
+    padding: 0px 20px 5px 5px;
+    border-radius: 5px;    
+    cursor: pointer;
 }
