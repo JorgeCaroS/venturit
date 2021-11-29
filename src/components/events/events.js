@@ -1,18 +1,32 @@
+import React, { useState} from "react";
 import banner from '../../media/Assets/IMG/3000434.png';
+import banner1 from '../../media/Assets/IMG/3000435.png';
 import thumbnail1 from '../../media/Assets/IMG/thumbnail.png';
 
 export default function Events() {
 
+    const [flag, setFlag] = useState(false);
+
+    function handleClick(){
+        setFlag(!flag)
+    }
+
+    
     return(
           <div className="events-container">
               <h1>Events</h1> 
                 <div className="events-content">
                 <div className="events-banner-container">
-                    <div className="events-banner-arrow-left">{"<-"}</div>
+                    <div className="events-banner-arrow-left" onClick={handleClick}>
+                    <span  id="arrow_back"  className="material-icons md-dark" > arrow_back</span>
+                    </div>
+                    
                   <h3 className="events-banner-title">Youth Talent & Education</h3>  
                   <h3 className="events-banner-date">May,20</h3> 
-                  <div className="events-banner-arrow-right">{"->"}</div>
-                 <img className="events-banner" src={banner}/>
+                  <div className="events-banner-arrow-right" onClick={handleClick}>
+                  <span  id="arrow_forward"  className="material-icons md-dark" > arrow_forward</span>
+                  </div>
+                 <img className="events-banner" src={ flag ? banner : banner1}/>
                 </div>
                 <div className="events-right-section">
                      <div className="events-right-section-title">

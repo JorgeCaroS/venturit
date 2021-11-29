@@ -4,11 +4,12 @@
     justify-content: flex-start;
     align-items: center;
     background-color: rgb(53, 138, 248);
-    height: 100vh;
-    margin-top: 68px;   
+    height: 100vh;  
     width: 60px;
     color: white;
     position: relative;
+    margin-left: -10px;
+    margin-right: 50px;
     
 }
 
@@ -31,3 +32,12 @@
     background-color:rgb(27, 115, 230);
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 800px) {
+   
+    .menu-container{       
+        display: none;        
+    }
+  }
+  

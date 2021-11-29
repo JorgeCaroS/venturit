@@ -9,7 +9,8 @@ import arrow from '../../media/Assets/IMG/Arrow---Down-2 - Iconly---Bold.png';
 
 export default function MainHeader() {
     return(
-        <div className="mainheader-container">     
+        <div className="mainheader-container">
+          <div className="mainheader-container-desktop">     
        
              <img className="header-logo"src={logo} className="App-logo" alt="logo" />
 
@@ -26,9 +27,22 @@ export default function MainHeader() {
             <img className="header-message"src={message}  />
             <label className="header-name"> Clarence Russell </label>
             <img className="header-avatar"src={avatar}  />
-            <img className="header-arrow"src={arrow}  />
-            
+            <img className="header-arrow"src={arrow}  />            
              
         </div>
+
+            <div className="mainheader-container-mobile">     
+            <span  id="menu-icon-mobile"  className="material-icons md-dark" > menu</span>
+                
+            <img className="header-logo"src={logo} className="App-logo" alt="logo" />
+           
+            <img className="header-avatar-mobile"src={avatar}  />
+                     
+
+            </div>
+
+            </div>
+
+        
     )
 }

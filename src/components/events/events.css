@@ -4,7 +4,7 @@
     align-items: flex-start;
     width: 60vw;   
     margin-right: 10vw;
-    margin-left: 5vw;    
+    margin-left: 30px;    
     margin-top: -40px;    
 }
 
@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     margin-top: -60px;
-    margin-left: 41vw;
+    margin-left: 51vw;
     justify-content: space-around;   
     position: relative;   
     z-index: 1;
@@ -42,9 +42,10 @@
     background-color: white;
     justify-content: center;
     align-items: center;
-    width: 15vw;
+    width: 20vw;
     margin: 10px;
     margin-top: 25px;
+    border-radius: 10px;
 }
 
 .events-item-hour{
@@ -60,6 +61,7 @@
 .events-line{
     width: 8vw;
     height: 0px;
+    background-color: lightgray;
     border: solid 1px lightgray;
 }
 
@@ -86,7 +88,7 @@
     position: absolute;
     top:-50px;
     z-index: 0; 
-    width: 40vw;   
+    width: 50vw;   
     height: 280px;
 }
 
@@ -94,18 +96,18 @@
     display: flex;
     text-align: start;
     color:white;
-    left: 10vw;
+    left: 8vw;
     position: absolute;
     font-size: 40px;
     z-index: 1;  
-    width: 15vw;   
+    width: 20vw;   
 }
 
 .events-banner-date{
     color:white;
-    left: 25vw;
+    left: 33vw;
     position: absolute;
-    font-size: 40px;
+    font-size: 38px;
     z-index: 1;     
 }
 
@@ -120,9 +122,8 @@
     height: 30px;
     background-color: white;
     position: absolute;
-    font-size: 20px;
     z-index: 1; 
-    padding: 0px 20px 5px 5px;
+    padding: 0px 15px 5px 15px;
     border-radius: 5px;   
     cursor: pointer; 
 }
@@ -133,14 +134,13 @@
     align-items: center;
     color:black;
     top:80px;
-    left: 35vw;
+    left: 44vw;
     width: 30px;
     height: 30px;
     background-color: white;
     position: absolute;
-    font-size: 20px;
     z-index: 1; 
-    padding: 0px 20px 5px 5px;
+    padding: 5px 15px 5px 15px;
     border-radius: 5px;    
     cursor: pointer;
 }

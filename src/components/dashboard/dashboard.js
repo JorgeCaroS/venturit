@@ -20,12 +20,17 @@ export default function DashBoard() {
               </div>
 
             <div className="dashboard-banner-container">
-                <div className="dashboard-banner-text">
-                    <h2>Welcome back, Clarence</h2>
-                    <span>Ta-da! You´re up to date.🥳</span>
-                </div>
-             <img className="dashboard-animation-image"src={animation}  />
              <img className="dashboard-background-image"src={logo} />
+
+                <div className="dashboard-banner-content">
+                    <img className="dashboard-animation-image"src={animation}  />
+                
+                    <div className="dashboard-banner-text">
+                        <h2>Welcome back, Clarence</h2>
+                        <span>Ta-da! You´re up to date.🥳</span>
+                    </div>
+                </div>
+             
             </div>
             
              
