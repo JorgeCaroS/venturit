@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/venturit/static/css/main.02fb3f3e.chunk.css",
+    "main.js": "/venturit/static/js/main.1491c951.chunk.js",
+    "main.js.map": "/venturit/static/js/main.1491c951.chunk.js.map",
+    "runtime-main.js": "/venturit/static/js/runtime-main.a6ef93a3.js",
+    "runtime-main.js.map": "/venturit/static/js/runtime-main.a6ef93a3.js.map",
+    "static/js/2.c45c3f07.chunk.js": "/venturit/static/js/2.c45c3f07.chunk.js",
+    "static/js/2.c45c3f07.chunk.js.map": "/venturit/static/js/2.c45c3f07.chunk.js.map",
+    "static/js/3.621d7380.chunk.js": "/venturit/static/js/3.621d7380.chunk.js",
+    "static/js/3.621d7380.chunk.js.map": "/venturit/static/js/3.621d7380.chunk.js.map",
+    "index.html": "/venturit/index.html",
+    "static/css/main.02fb3f3e.chunk.css.map": "/venturit/static/css/main.02fb3f3e.chunk.css.map",
+    "static/js/2.c45c3f07.chunk.js.LICENSE.txt": "/venturit/static/js/2.c45c3f07.chunk.js.LICENSE.txt",
+    "static/media/3000434.7d5cab1d.png": "/venturit/static/media/3000434.7d5cab1d.png",
+    "static/media/3000435.7b6bbc85.png": "/venturit/static/media/3000435.7b6bbc85.png",
+    "static/media/Group 9.3213aff1.png": "/venturit/static/media/Group 9.3213aff1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6ef93a3.js",
+    "static/js/2.c45c3f07.chunk.js",
+    "static/css/main.02fb3f3e.chunk.css",
+    "static/js/main.1491c951.chunk.js"
+  ]
+}
